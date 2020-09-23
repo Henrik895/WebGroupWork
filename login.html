@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Welcome to postIt! Please Log In</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="res/css/login.css">
+        <link rel="stylesheet" href="res/css/global.css">
     </head>
     <body>
-        <h1>Welcome to postIt!</h1>
-        <p><a id="create" href="#">Create an Account</a><br>Or<br>Please Log In</p>
-        <form id="login" action="index.html">
-            <label for="email"></label>
-            <input id="email" type="email" placeholder="Email" required><br>
-            <label for="password"></label>
-            <input id="password" type="password" placeholder="Password" required><br>
-            <input type="submit" id="submit" value="Log In">
-        </form>
-        <a id="forgot" href="#">Forgot password?</a>
+        <div class="login-container">
+            <h1>Welcome to postIt!</h1>
+            <p><a id="create" href="#">Create an Account</a><br>Or<br>Please Log In</p>
+            <form id="login" action="index.html">
+                <label for="email"></label>
+                <input id="email" type="email" placeholder="Email" required><br>
+                <label for="password"></label>
+                <input id="password" type="password" placeholder="Password" required><br>
+                <input type="submit" id="submit" value="Log In">
+            </form>
+            <a id="forgot" href="#">Forgot password?</a>
+        </div>
     </body>
 </html>
