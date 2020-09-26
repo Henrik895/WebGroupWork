@@ -44,6 +44,10 @@ input:last-child{
     margin-top: 1em;
 }
 
+#login-container-header + p {
+    margin-bottom: 0.35vw;
+}
+
 #login-container-header h1{
     display: inline-block;
     margin-right: 7vw;
@@ -56,4 +60,21 @@ input:last-child{
     margin: 1vw;
     height: auto;
     width: 6vw;
+}
+
+#submit:hover {
+    animation-name: about2click;
+    animation-duration: 0.75s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+
+@keyframes about2click{
+    50% {
+        background-color: #0a457c;
+    }
+    100% {
+        background-color: #062b4d;
+    }
 }
