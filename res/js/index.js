@@ -50,7 +50,7 @@ function addPost(post) {
     }
 
     let postFooter = document.createElement('div')
-    postFooter.className = 'postText'
+    postFooter.className = 'postFooter'
     postContainer.appendChild(postFooter)
 
     let likeButton = document.createElement('button')
