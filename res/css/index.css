@@ -1,0 +1,90 @@
+
+.container {
+    padding-top: 5em;
+}
+
+/* Searchbar related CSS */
+.searchbar {
+    background: #fff;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+}
+
+.searchContainer {
+    display: flex;
+    padding: 0.4em;
+    justify-content: center;
+}
+
+.searchContainer > button {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+#search {
+    font-size: 1.5em;
+    border: #e0e0e0 solid 1px;
+    width: 50%;
+}
+
+/*Post related CSS*/
+#postList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.postContainer {
+    margin: 0.5em auto 0.5em auto;
+    box-shadow: 0 0 5px 2px rgba(0,0,0,0.3);
+    border-radius: 0.4em;
+    padding: 0;
+    width: 90%;
+}
+
+.postHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4em;
+}
+
+.postHeader > img {
+    height: 2em;
+    width: 2em;
+}
+
+.postHeader span {
+    color: #878080;
+}
+
+.postImage {
+    width: 100%;
+}
+
+.postImage * {
+    width: 100%;
+    height: auto;
+}
+
+.postTitle {
+    text-align: left;
+    padding: 0.4em;
+}
+
+.postTitle > span {
+    color: #252f83;
+    font-size: 1.5em;
+}
+
+.postFooter {
+    text-align: left;
+    padding: 0.4em;
+}
+
+.postFooter span {
+    font-size: 1em;
+}
+
