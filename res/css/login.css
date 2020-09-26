@@ -1,34 +1,25 @@
 .login-container {
     padding: 0;
-    margin: 10em auto auto auto;
+    margin: 0.5em auto 0.5em auto;
     width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-@media screen and (max-width: 800px) {
-    .login-container {
-        width: 100%;
-        transition-duration: 0.5s;
-    }
-
-    #login-container-header img {
-        display: none;
-    }
-}
 
 .link {
     color: deepskyblue;
 }
 
-.login-container > p{
+a ~ p {
     padding: 0.2em;
     margin: 0.2em;
 }
 
 .login-container > a{
     padding: 1em;
+
 }
 
 input[type=email], input[type=password]{
@@ -49,9 +40,9 @@ input:last-child{
 }
 
 #login-container-header h1{
-    display: inline-block;
-    margin-right: 7vw;
+    justify-content: center;
     margin-top: 9vh;
+    margin-right: 7vw;
     font-size: 1.8em;
 }
 
@@ -59,7 +50,7 @@ input:last-child{
     float: left;
     margin: 1vw;
     height: auto;
-    width: 6vw;
+    width: 7vw;
 }
 
 #submit:hover {
@@ -76,5 +67,22 @@ input:last-child{
     }
     100% {
         background-color: #062b4d;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .login-container {
+        width: 100%;
+        transition-duration: 0.5s;
+    }
+}
+
+@media screen and (max-width: 1055px) {
+
+    #login-container-header img {
+        display: none;
+    }
+    #login-container-header h1 {
+        margin-right: 0;
     }
 }

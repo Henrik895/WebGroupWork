@@ -38,6 +38,14 @@
     border-top-left-radius: 0.4em;
 }
 
+#search:focus{
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border: #000000 solid 1px;
+    border-right: none;
+    outline: none;
+}
+
 .navbar img {
     height: 2.5em;
     padding: 0.4em 2em 0.4em 2em;
@@ -101,5 +109,13 @@
 
 .postFooter span {
     font-size: 1em;
+}
+
+.primaryButton {
+    transition: box-shadow 0.3s;
+}
+
+.postFooter > .primaryButton:hover{
+    box-shadow: 0 0 5px 2px #0d579b;
 }
 
