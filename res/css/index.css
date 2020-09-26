@@ -92,12 +92,12 @@
     height: auto;
 }
 
-.postTitle {
+.postText {
     text-align: left;
     padding: 0.4em;
 }
 
-.postTitle > span {
+.postText > span {
     color: #12183e;
     font-size: 1.2em;
 }
