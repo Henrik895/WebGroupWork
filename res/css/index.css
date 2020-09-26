@@ -3,6 +3,7 @@
     padding-top: 5em;
 }
 
+
 /* Searchbar related CSS */
 .navbar {
     display: flex;
@@ -33,6 +34,8 @@
 #search {
     font-size: 1.5em;
     border: #e0e0e0 solid 1px;
+    border-bottom-left-radius: 0.4em;;
+    border-top-left-radius: 0.4em;
 }
 
 .navbar img {
@@ -47,6 +50,7 @@
     flex-direction: column;
     justify-content: center;
 }
+
 
 .postContainer {
     margin: 0.5em auto 0.5em auto;
@@ -86,8 +90,8 @@
 }
 
 .postTitle > span {
-    color: #252f83;
-    font-size: 1.5em;
+    color: #12183e;
+    font-size: 1.2em;
 }
 
 .postFooter {

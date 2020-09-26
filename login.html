@@ -3,13 +3,16 @@
     <head>
         <title>Welcome to postIt! Please Log In</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="res/css/global.css">
         <link rel="stylesheet" href="res/css/login.css">
     </head>
     <body>
-        <div class="container">
+        <div class="container login-container">
             <h1>Welcome to postIt!</h1>
-            <p><a id="create" href="#">Create an Account</a><br>Or<br>Please Log In</p>
+            <p><a class="link" id="create" href="#">Create an Account</a></p>
+            <p>Or</p>
+            <p>Please Log In</p>
             <form id="login" action="index.html">
                 <label for="email"></label>
                 <input id="email" type="email" placeholder="Email" required><br>
@@ -17,7 +20,7 @@
                 <input id="password" type="password" placeholder="Password" required><br>
                 <input type="submit" class="primaryButton" id="submit" value="Log In">
             </form>
-            <a id="forgot" href="#">Forgot password?</a>
+            <a class="link" id="forgot" href="#">Forgot password?</a>
         </div>
     </body>
 </html>
