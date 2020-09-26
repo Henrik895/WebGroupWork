@@ -4,19 +4,21 @@
 }
 
 /* Searchbar related CSS */
-.searchbar {
+.navbar {
+    display: flex;
+    justify-content: space-between;
     background: #fff;
     width: 100%;
     position: fixed;
     margin: 0;
     padding: 0;
-    flex-direction: row;
 }
 
 .searchContainer {
     display: flex;
     padding: 0.4em;
     justify-content: center;
+    width: 40%;
 }
 
 .searchContainer > button {
@@ -24,10 +26,19 @@
     border-top-left-radius: 0;
 }
 
+.searchContainer > input {
+    width: 100%;
+}
+
 #search {
     font-size: 1.5em;
     border: #e0e0e0 solid 1px;
-    width: 50%;
+}
+
+.navbar img {
+    height: 2.5em;
+    padding: 0.4em 2em 0.4em 2em;
+    width: auto;
 }
 
 /*Post related CSS*/
