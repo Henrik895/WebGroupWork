@@ -77,6 +77,7 @@
 .postHeader > img {
     height: 2em;
     width: 2em;
+    border-radius: 50%;
 }
 
 .postHeader span {
@@ -115,7 +116,12 @@
     transition: box-shadow 0.3s;
 }
 
-.postFooter > .primaryButton:hover{
+.primaryButton:hover{
     box-shadow: 0 0 5px 2px #0d579b;
+}
+
+#nextContainer {
+    margin-top: 0.7em;
+    margin-bottom: 1em;
 }
 

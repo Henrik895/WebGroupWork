@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
         <title>Main Page</title>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="res/css/global.css">
         <link rel="stylesheet" href="res/css/index.css">
-
-
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
               rel="stylesheet">
     </head>
@@ -26,9 +24,11 @@
             </div>
         </div>
         <div class="container">
-            <div id="postList">
+            <div id="postList"></div>
+            <div id="nextContainer">
+                <button class="primaryButton" id="nextButton" onclick="addNPosts(5, posts)">Load more messages</button>
             </div>
         </div>
-        <script src="res/js/index.js"></script>
+        <script src="res/js/index.js" type="text/javascript" charset="utf-8"></script>
     </body>
 </html>
